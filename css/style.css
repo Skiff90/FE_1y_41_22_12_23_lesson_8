@@ -1,0 +1,27 @@
+* {
+  color: black;
+}
+
+body {
+  color: aqua;
+}
+
+.text {
+  color: red;
+}
+
+p[class="text"] {
+  color: blue;
+}
+
+p.text {
+  color: rgb(15, 60, 99);
+}
+
+#id-text {
+  color: brown;
+}
+
+#id-text.text {
+  color: yellow;
+}
