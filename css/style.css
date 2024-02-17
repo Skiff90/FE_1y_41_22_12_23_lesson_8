@@ -1,21 +1,17 @@
-* {
-  color: black;
-}
-
 body {
-  color: aqua;
+  color: #913d88;
+  font-size: 22px;
+  border: 1px solid rgb(100, 22, 168);
+  padding: 5px;
 }
 
-.text {
-  color: red;
+ul {
+  border: inherit;
 }
 
-p[class="text"] {
-  color: blue;
-}
-
-p.text {
-  color: rgb(15, 60, 99);
+li {
+  list-style: none;
+  border: inherit;
 }
 
 #id-text {
@@ -24,4 +20,57 @@ p.text {
 
 #id-text.text {
   color: yellow;
+}
+article > p {
+  color: orange;
+}
+.post {
+  color: rgb(201, 10, 153);
+  font-size: 18px;
+}
+
+.post > a:hover,
+.post > a:focus {
+  color: chocolate;
+  font-size: 21px;
+}
+
+button {
+  color: coral;
+}
+
+button:hover,
+button:focus {
+  color: cyan;
+  border: 1px dotted green;
+  border-radius: 50%;
+}
+.button:hover {
+  color: black;
+}
+.important {
+  color: chartreuse !important;
+}
+.post-link {
+  color: inherit;
+}
+.link:visited {
+  background-color: yellow;
+}
+
+.text-item:nth-child(even) {
+  color: rgb(52, 205, 110);
+}
+.text-item:nth-child(-n + 4) {
+  color: crimson;
+}
+.social-links .link {
+  color: teal;
+}
+.social-links .link:hover,
+.social-links .link:focus {
+  color: orange;
+}
+.social-links .link:active {
+  color: red;
 }
